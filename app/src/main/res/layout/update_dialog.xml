@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/titulo_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Título"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:background="@drawable/titulo_style"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_close"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/cerrar_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/close_btn"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/medio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/abajo"
+        android:layout_below="@+id/titulo"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/up_usuario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Usuario"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/up_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Username"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/up_hostname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Hostname"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/up_ubicacion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Ubicación"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/up_marca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Marca"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/up_modelo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Modelo"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/up_ano_m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Año de manufactura"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/up_num_serie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Número de serie"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/up_pro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Procesador"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/up_vel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Velocidad del Procesador"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/up_ram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="RAM"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/up_dd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="DD (Gb)"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/up_disco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Disco de estado"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/up_w_version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Windows Versión"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/up_idioma_so"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Idioma SO"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/up_microsoft_office_version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Microsoft Office Versión"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/up_antivirus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Antivirus"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/up_software"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Software"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:visibility="invisible"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/abajo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        >
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="147dp"
+            android:gravity="center"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_up_prod"
+                android:layout_width="195dp"
+                android:layout_height="51dp"
+                android:background="@drawable/btn_style"
+                android:text="Actualizar"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_del_prod"
+                android:layout_width="195dp"
+                android:layout_height="51dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_style_2"
+                android:text="Eliminar"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/bar_code"
+                android:layout_marginStart="2dp"
+                android:background="#000000"
+                android:adjustViewBounds="true"
+                >
+            </ImageView>
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginStart="2dp"
+                android:paddingStart="10dp"
+                android:background="@drawable/btn_style"
+                android:drawableLeft="@drawable/btn_share"
+                android:id="@+id/share"
+                >
+
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

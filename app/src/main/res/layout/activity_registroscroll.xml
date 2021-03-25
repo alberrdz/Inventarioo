@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/inventariobg"
+    tools:context=".registroscroll">
+
+
+    <LinearLayout
+        android:id="@+id/m_logo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/logoinventarioo"
+            android:layout_width="240dp"
+            android:layout_height="47dp"
+            android:contentDescription="@string/logoinventarioo"
+            app:srcCompat="@drawable/logoinventarioo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_above="@id/agregar"
+        android:layout_below="@+id/m_logo"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="25dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/reg_usuario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hint1"
+                    android:backgroundTint="#FFFFFF"
+                    android:textColorHint="#D6D6D6"
+                    android:textColor="#FFFFFF"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/reg_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hint2"
+                    android:backgroundTint="#FFFFFF"
+                    android:textColorHint="#D6D6D6"
+                    android:textColor="#FFFFFF"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/reg_hostname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hint3"
+                    android:backgroundTint="#FFFFFF"
+                    android:textColorHint="#D6D6D6"
+                    android:textColor="#FFFFFF"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/reg_ubicacion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hint4"
+                    android:backgroundTint="#FFFFFF"
+                    android:textColorHint="#D6D6D6"
+                    android:textColor="#FFFFFF"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/reg_marca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hint5"
+                    android:backgroundTint="#FFFFFF"
+                    android:textColorHint="#D6D6D6"
+                    android:textColor="#FFFFFF"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/reg_modelo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hint6"
+                    android:backgroundTint="#FFFFFF"
+                    android:textColorHint="#D6D6D6"
+                    android:textColor="#FFFFFF"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/reg_ano_m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hint7"
+                    android:backgroundTint="#FFFFFF"
+                    android:textColorHint="#D6D6D6"
+                    android:textColor="#FFFFFF"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/reg_num_serie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hint8"
+                    android:backgroundTint="#FFFFFF"
+                    android:textColorHint="#D6D6D6"
+                    android:textColor="#FFFFFF"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/reg_pro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hint9"
+                    android:backgroundTint="#FFFFFF"
+                    android:textColorHint="#D6D6D6"
+                    android:textColor="#FFFFFF"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/reg_vel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hint10"
+                    android:backgroundTint="#FFFFFF"
+                    android:textColorHint="#D6D6D6"
+                    android:textColor="#FFFFFF"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/reg_ram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hint11"
+                    android:backgroundTint="#FFFFFF"
+                    android:textColorHint="#D6D6D6"
+                    android:textColor="#FFFFFF"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/reg_dd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hint12"
+                    android:backgroundTint="#FFFFFF"
+                    android:textColorHint="#D6D6D6"
+                    android:textColor="#FFFFFF"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/reg_disco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hint13"
+                    android:backgroundTint="#FFFFFF"
+                    android:textColorHint="#D6D6D6"
+                    android:textColor="#FFFFFF"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/reg_w_version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hint14"
+                    android:backgroundTint="#FFFFFF"
+                    android:textColorHint="#D6D6D6"
+                    android:textColor="#FFFFFF"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/reg_idioma_so"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hint15"
+                    android:backgroundTint="#FFFFFF"
+                    android:textColorHint="#D6D6D6"
+                    android:textColor="#FFFFFF"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/reg_microsoft_office_version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hint16"
+                    android:backgroundTint="#FFFFFF"
+                    android:textColorHint="#D6D6D6"
+                    android:textColor="#FFFFFF"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/reg_antivirus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hint17"
+                    android:backgroundTint="#FFFFFF"
+                    android:textColorHint="#D6D6D6"
+                    android:textColor="#FFFFFF"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/reg_software"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hint18"
+                    android:backgroundTint="#FFFFFF"
+                    android:textColorHint="#D6D6D6"
+                    android:textColor="#FFFFFF"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:visibility="invisible" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:visibility="invisible" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/agregar"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_above="@+id/m_button_layout"
+        >
+
+        <Button
+            android:id="@+id/btn_add_prod"
+            android:layout_width="150dp"
+            android:layout_height="32dp"
+            android:drawableLeft="@drawable/m_btn_add"
+            android:paddingStart="65dp"
+            android:background="@drawable/add_style"
+            android:textColor="#F93851"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/m_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#20000000"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+
+        <Button
+            android:id="@+id/btn_inv"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:drawableLeft="@drawable/m_btn_inv"
+            android:paddingStart="33dp"
+            android:background="@drawable/m_button_style"
+            android:textColor="#F93851"
+            />
+
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:drawableLeft="@drawable/m_btn_add"
+            android:paddingStart="33dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/m_button_style"
+            android:textColor="#F93851"
+            />
+
+        <Button
+            android:id="@+id/btn_cam"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:drawableLeft="@drawable/m_btn_cam"
+            android:paddingStart="33dp"
+            android:background="@drawable/m_button_style"
+            android:textColor="#F93851"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inventariobg"
+    tools:context=".Camara">
+
+    <LinearLayout
+        android:id="@+id/m_logo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#20000000"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/logoinventarioo"
+            android:layout_width="240dp"
+            android:layout_height="47dp"
+            android:contentDescription="@string/logoinventarioo"
+            app:srcCompat="@drawable/logoinventarioo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_below="@+id/m_logo"
+        android:layout_above="@+id/m_button_layout"
+        android:onClick="EscanerQR"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/captura"
+            android:onClick="EscanerQR"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/m_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#20000000"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+
+        <Button
+            android:id="@+id/btn_inv"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:drawableLeft="@drawable/m_btn_inv"
+            android:paddingStart="33dp"
+            android:background="@drawable/m_button_style"
+            android:textColor="#F93851"
+            />
+
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:drawableLeft="@drawable/m_btn_add"
+            android:paddingStart="33dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/m_button_style"
+            android:textColor="#F93851"
+            />
+
+        <Button
+            android:id="@+id/btn_cam"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:drawableLeft="@drawable/m_btn_cam"
+            android:paddingStart="33dp"
+            android:background="@drawable/m_button_style"
+            android:textColor="#F93851"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

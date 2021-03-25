@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Inventarioo</string>
+    <string name="logoinventarioo">logoinventarioo</string>
+    <string name="inv_ejemp">inv_ejemp</string>
+    <string name="hint1"><i>Usuario</i></string>
+    <string name="hint2"><i>Username</i></string>
+    <string name="hint3"><i>Hostname</i></string>
+    <string name="hint4"><i>Ubicación</i></string>
+    <string name="hint5"><i>Marca</i></string>
+    <string name="hint6"><i>Modelo</i></string>
+    <string name="hint7"><i>Año de manufactura</i></string>
+    <string name="hint8"><i>Número de serie</i></string>
+    <string name="hint9"><i>Procesador</i></string>
+    <string name="hint10"><i>Velocidad de procesador</i></string>
+    <string name="hint11"><i>RAM</i></string>
+    <string name="hint12"><i>DD (Gb)</i></string>
+    <string name="hint13"><i>Disco de estado</i></string>
+    <string name="hint14"><i>Windows Versión</i></string>
+    <string name="hint15"><i>Idioma SO</i></string>
+    <string name="hint16"><i>Microsoft Office Versión</i></string>
+    <string name="hint17"><i>Antivirus</i></string>
+    <string name="hint18"><i>Software</i></string>
+</resources>

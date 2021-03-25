@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "169057358157",
+    "firebase_url": "https://inventarioo-5b71b.firebaseio.com",
+    "project_id": "inventarioo-5b71b",
+    "storage_bucket": "inventarioo-5b71b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169057358157:android:70488a077d2a9744e5e704",
+        "android_client_info": {
+          "package_name": "com.deshielo.inventarioo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169057358157-0556vds0cto39itat1pk50reqfbtn6v4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deshielo.inventarioo",
+            "certificate_hash": "1e8c53e5cda4ce3d51a9994221be0c7d728c5153"
+          }
+        },
+        {
+          "client_id": "169057358157-v7mdcqnrcslfghct1ipu7v64i38b4b0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6GrvTJ_PCRYSUciX17TuRcfsj5rc-tJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169057358157-v7mdcqnrcslfghct1ipu7v64i38b4b0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
